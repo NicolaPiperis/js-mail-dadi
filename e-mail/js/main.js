@@ -18,17 +18,25 @@ console.log("email : " + emailUsers);
     // fai controllare la e-mail
 for ( let i = 0; i < accesso.length; i++) {
 
+    let esito;
+    esito = document.getElementById("answer");
     const emailArray = accesso[i];
     
     if ( emailUsers === emailArray) {
-        console.log("Benvenuto");
+        esito.innerHTML = "Benvenuto"
+        esito.classList.add("answer_green")
     }
     
     else {
-        console.log("Hai problemi di accesso? Prova a contattare l'assistenza");
+        esito.innerHTML = "Prova a contattare l'assistenza"
+        esito.classList.add("answer_red")
     }
 
     }
+
+
+
+console.log(esito);
 
 
 

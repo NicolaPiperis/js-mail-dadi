@@ -41,3 +41,19 @@ button{
 input, button {
     margin-top: 50px;
 }
+
+#answer{
+    font-size: 30px;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.answer_green{
+    color: rgb(12, 214, 12);
+}
+
+.answer_red{
+    color: rgb(180, 0, 0);
+}
