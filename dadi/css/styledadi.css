@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: darkturquoise;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    text-align: center;
+    color: black;
+    font-size: 50px;
+    font-weight: 900;
+    padding: 50px 0 ;
+}
+
+h2{
+    color: white;
+    padding: 100px;
+}
+
+input{
+    margin-left: 100px;
+    border: none;
+    outline-style: none;
+    height: 35px;
+    width:200px;
+    border-radius: 20px;
+}
+
+button {
+    margin-left: 100px;
+    border: none;
+    outline-style: none;
+    border-radius: 20px;
+    height: 30px;
+    width: 70px;
+    font-weight: 700;
+    background-color: white;
+}
