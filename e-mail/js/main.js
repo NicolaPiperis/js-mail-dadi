@@ -16,13 +16,21 @@ let emailUsers = document.querySelector("input").value;
 console.log("email : " + emailUsers);
 
     // fai controllare la e-mail
-if ( emailUsers = accesso) {
-    console.log("Benvenuto");
-}
+for ( let i = 0; i < accesso.length; i++) {
 
-else {
-    console.log("Hai problemi di accesso? Prova a contattare l'assistenza");
-}
+    const emailArray = accesso[i];
+    
+    if ( emailUsers === emailArray) {
+        console.log("Benvenuto");
+    }
+    
+    else {
+        console.log("Hai problemi di accesso? Prova a contattare l'assistenza");
+    }
+
+    }
+
+
 
     // output di risposta in basa all'esito del controllo
 
