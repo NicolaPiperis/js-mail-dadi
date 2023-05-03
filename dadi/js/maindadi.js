@@ -21,17 +21,17 @@ function(){
 
     if (numberPc > numberUser) {
         console.log("Il vincitore è il Pc");
-        esito.innerHTML("Nessun vincitore, la partita è patta");
+        document.getElementById("answer").innerHTML = "Il vincitore è il pc";
     }
 
     else if(numberPc === numberUser) {
         console.log(" Nessun vincitore, la partita è patta");
-        esito.innerHTML("Nessun vincitore, la partita è patta");
+        document.getElementById("answer").innerHTML = "Nessun vincitore, la partita è patta";
     }
 
     else {
         console.log("Il vincitore è User");
-        esito.innerHTML("Nessun vincitore, la partita è patta");
+        document.getElementById("answer").innerHTML = "Il vincitore è User";
     }
 
     // output
